@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>LBS of Tea | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/804cb2bd42.js" crossorigin="anonymous"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./images/greencup.ico" rel="icon" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Lato:ital,wght@1,300&family=Manrope:wght@200&family=Playfair+Display&family=Quicksand&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>lBs of Tea</h1>
+        <button class="btn-menu"><i class="fa-solid fa-square-caret-down"></i></button>
+        <nav>
+            <ul id="nav-ul">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about-us.html">About Us</a></li>
+                <li><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-current-page"><a class="nav-link" href="teaware.html">Teaware</a></li>
+                <li><a class="nav-link" href="reservations.html">Reservations</a></li>
+                <li><a class="nav-link" href="lorem-ipsum.html">Lorem Ipsum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="teaware-feature-items-center">Feature Item!</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/feature-item-1.jpg">
+                <div class="feature-item-text">Teal Iced Tea Press</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/feature-item-2.jpg">
+                <div class="feature-item-text">Teal Iced Tea Press</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/feature-item-3.jpg">
+                <div class=feature-item-text>Teal Iced Tea Press</div>
+            </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- <br> -->
+
+        <div class="dot-centre">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section>
+            <div class="teaware-container">
+                <div class="teaware-main-boxes">
+                    <img src="images/empty-teapot.jpg" alt="Clear glass teapot">
+                    <img src="images/full-teapot.jpg" alt="Full glass teapot">
+                    <h3>Clear Glass Teapot - $20</h3>
+                </div>
+                <div class="teaware-main-boxes">
+                    <img src="images/empty-teal-pitcher.jpg" alt="Empty teal pitcher">
+                    <img src="images/full-teal-pitcher.jpg" alt="Full teal pitcher">
+                    <h3>Teal Pitcher - $20</h3>
+                </div>
+            </div>
+            <div class="teaware-container">
+                <div class="teaware-main-boxes">
+                    <img src="images/blue-mug.jpg" alt="Blue nordic mug">
+                    <img src="images/green-mug.jpg" alt="Green nordic mug">
+                    <h3>Textured Nordic Mug Gift Set - $30</h3>
+                </div>
+                <div class="teaware-main-boxes">
+                    <img src="images/ski-mug.jpg" alt="Ski mug">
+                    <img src="images/full-ski-mug.jpg" alt="Full ski mug">
+                    <h3>Ski Trip Mug - $15</h3>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <div class="footer-container">
+        <footer>
+            <div class="social-media-icons">
+                <a href="https://www.instagram.com/bryanlimbo"><i class="fa-brands fa-instagram"></i>
+                    <a href="javascript:;"><i class="fa-brands fa-twitter"></i>
+                        <a href="javascript:;"><i class="fa-brands fa-whatsapp"></i>
+                            <a href="https://www.facebook.com/KlDJoker/"><i class="fa-brands fa-facebook"></i>
+            </div>
+            <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="javascript:;">Our Story</a></li>
+                <li><a href="javascript:;">Careers</a></li>
+                <li><a href="javascript:;">Terms & Conditions</a></li>
+                <li><a href="javascript:;">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">LBS of Tea © 2022</p>
+            <p class="education">*educational purposes only*</p>
+        </footer>
+    </div>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/slideshow.js"></script>
+</body>
+
+</html>

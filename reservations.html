@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>LBS of Tea | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/804cb2bd42.js" crossorigin="anonymous"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./images/greencup.ico" rel="icon" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Lato:ital,wght@1,300&family=Manrope:wght@200&family=Playfair+Display&family=Quicksand&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>lBs of Tea</h1>
+        <button class="btn-menu"><i class="fa-solid fa-square-caret-down"></i></button>
+        <nav>
+            <ul id="nav-ul">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about-us.html">About Us</a></li>
+                <li><a class="nav-link" href="menu.html">Menu</a></li>
+                <li><a class="nav-link" href="teaware.html">Teaware</a></li>
+                <li class="nav-current-page"><a class="nav-link" href="reservations.html">Reservations</a></li>
+                <li><a class="nav-link" href="lorem-ipsum.html">Lorem Ipsum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="reservations-wrapper">
+            <form action="/" class="reservations-forms" method="post">
+
+                <div class="reservations-title">
+                    <h1>BECAUSE OF THE PANDEMIC, RESERVATIONS ARE ENCOURAGED</h1>
+                    <h2>Reservations keep our store capacity at the right amount. We also conduct monthly draws for
+                        prizes to be won!
+                    </h2>
+                </div>
+
+                <div class="forms-container">
+                    <div class="forms-container-top">
+                        <div class="form-row form-first-name">
+                            <label for="firstname">First name</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="First name">
+                        </div>
+                        <div class="form-row form-last-name">
+                            <label for="lastname">Last name</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="Last name">
+                        </div>
+                        <div class="form-row form-birthday">
+                            <label for="birthday">Birthday</label>
+                            <input type="date" name="birthday" id="birthday">
+                        </div>
+                    </div>
+                    <div class="forms-container-bottom">
+                        <div class="form-row form-email">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="user@fakemail.com">
+                        </div>
+                        <div class="form-row form-location">
+                            <label for="location">Location</label>
+                            <select name="location" id="location">
+                                <option value="Vancouver">Select Location</option>
+                                <option value="Vancouver">Yaletown</option>
+                                <option value="Vancouver">Olympic Village (Opening Soon!)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-tos">
+                    <div class="tos-input">
+                        <input type="checkbox" name="tos" id="tos" value="agree-or-not">
+                    </div>
+                    <div class="tos-label">
+                        <label for="tos">I agree to the <a href="#0">Terms of Service</a> and certify that I am
+                            not a robot</label>
+                    </div>
+                </div>
+
+                <div class="form-submit">
+                    <input type="submit" value="ENTER">
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    <div class="footer-container">
+        <footer>
+            <div class="social-media-icons">
+                <a href="https://www.instagram.com/bryanlimbo"><i class="fa-brands fa-instagram"></i>
+                    <a href="javascript:;"><i class="fa-brands fa-twitter"></i>
+                        <a href="javascript:;"><i class="fa-brands fa-whatsapp"></i>
+                            <a href="https://www.facebook.com/KlDJoker/"><i class="fa-brands fa-facebook"></i>
+            </div>
+            <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="javascript:;">Our Story</a></li>
+                <li><a href="javascript:;">Careers</a></li>
+                <li><a href="javascript:;">Terms & Conditions</a></li>
+                <li><a href="javascript:;">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">LBS of Tea © 2022</p>
+            <p class="education">*educational purposes only*</p>
+        </footer>
+    </div>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
